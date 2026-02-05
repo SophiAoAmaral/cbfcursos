@@ -144,3 +144,6 @@ while(p >= 1){
     n--
 }
 
+
+//FUNCTION
+f
