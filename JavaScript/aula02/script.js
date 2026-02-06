@@ -128,22 +128,26 @@ switch(colocacao){
 
 
 //WHILE
-let m = 0;
-while(m<10){
-    console.log(m)
-    m++
-}
+//let m = 0;
+//while(m<10){
+   // console.log(m)
+ //   m++
+//}
 
 
 
-let p = 5;
-let fatorial = 1;
+//let p = 5;
+//let fatorial = 1;
 
-while(p >= 1){
-    fatorial*=p
-    n--
-}
+//while(p >= 1){
+ //   fatorial*=p
+  //  n--
+//}
 
 
 //FUNCTION
-f
+let n4 = 9
+let n5 = 3
+function resultado(n4, n5){
+    
+}
