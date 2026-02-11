@@ -219,12 +219,21 @@
 
 
 
-let el = document.getElementsByTagName('div');
+//let el = document.getElementsByTagName('div');
 // el = [...el];//tranforma em um elmento Array com metodos
 // console.log(el)
 // el.map((e,i)=>{
 //     e.innerHTML = 'Ola'
 // })
+
+
+const cursos = [...document.querySelectorAll('div')];
+cursos.map((curso)=>{
+    curso.addEventListener('click', (e)=>{
+        const el = e.target;
+        el.classList.add('cor');
+    })
+})
 
 
 
