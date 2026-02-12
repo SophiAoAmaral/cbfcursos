@@ -237,5 +237,22 @@ cursos.map((curso)=>{
 
 
 
+//FILTER
+const idade =[15,21,40,22,45,50,30,11,45,18,17];
+
+
+//no filter pode de passar (valor,iindex,array)
+const maior = idade.filter((valor)=>{
+    if(valor>=18){
+        return valor
+    }
+})
+
+const menor =idade.filter((valor)=>{
+    if(valor<18){
+        return valor
+    }
+}) 
+console.log(idade, maior, menor)
 
 
